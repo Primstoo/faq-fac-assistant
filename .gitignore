@@ -16,5 +16,8 @@ data/processed/*.db
 .vscode/
 .idea/
 
+# Notes internes de collaboration avec l'assistant IA (pas destiné au repo public)
+CLAUDE.md
+
 # Notebooks - checkpoints
 .ipynb_checkpoints/
