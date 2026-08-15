@@ -1,3 +1,4 @@
 # Installées progressivement, étape par étape, pas toutes d'un coup.
 # (liste tenue à jour au fur et à mesure de la roadmap)
 python-dotenv
+sentence-transformers
