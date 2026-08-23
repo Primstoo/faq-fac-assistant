@@ -1,4 +1,3 @@
 """
-retrieval.py — à construire ensemble.
-Rôle de ce module : (à compléter quand on l'écrira)
+Récupération des chunks pertinents pour une question donnée, à partir du vector store.
 """
