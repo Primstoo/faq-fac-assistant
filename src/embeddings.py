@@ -1,10 +1,7 @@
 """
-embeddings.py
-
-Transformation du texte en vecteur numérique (embedding), pour pouvoir
-ensuite comparer des textes entre eux par similarité (vector_store.py fera cette
-comparaison). Modèle utilisé : all-MiniLM-L6-v2 (sentence-transformers), gratuit,
-tourne en local, ~90 Mo, télécharge une seule fois puis mis en cache sur le disque.
+Transformation de texte en vecteurs numériques (embeddings) via sentence-transformers
+(all-MiniLM-L6-v2, local, gratuit), pour permettre la comparaison de textes par
+similarité de sens dans vector_store.py.
 """
 
 from sentence_transformers import SentenceTransformer

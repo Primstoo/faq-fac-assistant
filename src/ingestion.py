@@ -1,5 +1,5 @@
 """
-ingestion.py — module à écrire.
+Lecture des documents sources (.txt, .pdf) et extraction de leur texte brut.
 """
 
 from pathlib import Path
