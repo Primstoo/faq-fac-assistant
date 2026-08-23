@@ -66,7 +66,8 @@ faq-fac-assistant/
 
 ## Statut
 
-🚧 En cours de construction — étape actuelle : mise en place des prérequis (dépôt, environnement).
+🚧 En cours de construction — ingestion, chunking, embeddings et vector store faits et testés.
+Prochaine étape : retrieval (seuil de similarité) puis generation (appel LLM).
 
 ## Licence
 
