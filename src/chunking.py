@@ -1,6 +1,6 @@
 """
-chunking.py — à construire ensemble.
-Rôle de ce module : (à compléter quand on l'écrira)
+Découpage du texte brut en chunks avec chevauchement, pour la recherche
+par similarité (un document entier est trop grand pour être comparé d'un bloc).
 """
 def chunk_text(text, chunk_size=1000, overlap=200):
     """

@@ -1,20 +1,7 @@
 """
-embeddings.py
-
-BROUILLON écrit par Claude pendant une session tardive — PAS ENCORE relu/compris/validé
-par [toi]. À décortiquer ensemble ligne par ligne avant de le considérer comme acquis
-(règle du CLAUDE.md : tu dois pouvoir défendre chaque ligne en entretien).
-
-Rôle du module : transformer du texte en vecteur numérique (embedding), pour pouvoir
-ensuite comparer des textes entre eux par similarité (vector_store.py fera cette
-comparaison). Modèle utilisé : all-MiniLM-L6-v2 (sentence-transformers), gratuit,
-tourne en local, ~90 Mo, télécharge une seule fois puis mis en cache sur le disque.
-
-Points à discuter ensemble demain :
-- Pourquoi charger le modèle une seule fois (variable globale _model) plutôt qu'à
-  chaque appel de embed_texts ?
-- Pourquoi convert_to_numpy=True plutôt que de garder le format par défaut (tensor) ?
-- Que contient concrètement le tableau retourné (dimensions, type) ?
+Transformation de texte en vecteurs numériques (embeddings) via sentence-transformers
+(all-MiniLM-L6-v2, local, gratuit), pour permettre la comparaison de textes par
+similarité de sens dans vector_store.py.
 """
 
 from sentence_transformers import SentenceTransformer

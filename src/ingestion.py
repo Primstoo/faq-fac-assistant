@@ -1,6 +1,5 @@
 """
-ingestion.py — à construire ensemble.
-Rôle de ce module : (à compléter quand on l'écrira)
+Lecture des documents sources (.txt, .pdf) et extraction de leur texte brut.
 """
 
 from pathlib import Path
