@@ -16,7 +16,7 @@ data/processed/*.db
 .vscode/
 .idea/
 
-# Notes internes de collaboration avec l'assistant IA (pas destiné au repo public)
+# Notes de travail personnelles, hors périmètre du dépôt
 CLAUDE.md
 
 # Notebooks - checkpoints
