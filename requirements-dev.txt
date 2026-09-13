@@ -1,0 +1,3 @@
+# Dépendances nécessaires uniquement pour lancer les tests.
+-r requirements.txt
+pytest
